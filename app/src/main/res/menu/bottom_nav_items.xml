@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        android:id="@+id/itmHome"
+        />
+
+    <item
+        android:title="Chat"
+        android:icon="@drawable/ic_chat_menu"
+        android:id="@+id/itmInbox"
+        />
+
+    <item
+        android:title="search"
+        android:id="@+id/itmSearch"
+        android:icon="@drawable/ic_search"
+        />
+
+    <item
+        android:title="profile"
+        android:id="@+id/itmProfile"
+        android:icon="@drawable/ic_profile"
+        />
+
+
+</menu>

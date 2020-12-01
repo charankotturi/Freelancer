@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/adamina</item>
+        <item>@font/basic</item>
+        <item>@font/passion_one</item>
+        <item>@font/poppins_light</item>
+        <item>@font/raleway_medium</item>
+        <item>@font/raleway_thin</item>
+        <item>@font/roboto_thin</item>
+    </array>
+</resources>

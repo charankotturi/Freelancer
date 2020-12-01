@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="10dp"
+    android:id="@+id/parent"
+    android:background="#455d7a">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@color/teal_200"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="5dp"
+            android:scaleType="fitXY"
+            android:id="@+id/imgCompanyLogo"
+            />
+
+        <RelativeLayout
+            android:id="@+id/relLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/imgCompanyLogo"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            >
+
+            <TextView
+                android:id="@+id/txtCompanyReq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/raleway_medium"
+                android:text="Mobile App Development"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtCompanyTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtCompanyReq"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="@font/raleway_medium"
+                android:layout_marginHorizontal="10dp"
+                android:text="Fart magazine"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relLayout"
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/relLayout"
+                android:layout_margin="5dp"
+                >
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:id="@+id/imgWorkEnv"
+                    android:src="@drawable/ic_home"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Work from home"
+                    android:textSize="15sp"
+                    android:layout_marginHorizontal="7dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/txtWorkEnv"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/relLayout"
+                android:layout_margin="5dp"
+                >
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:src="@drawable/ic_cash"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1000-2000"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/txtStipendPerMonth"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="/month"
+                    android:textSize="15sp"
+                    android:layout_marginStart="5dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_vertical"
+                    />
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:src="@drawable/ic_calender"
+                    android:layout_marginStart="20dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5"
+                    android:textSize="15sp"
+                    android:layout_marginStart="5dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/txtTimeOfJob"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="months"
+                    android:textSize="15sp"
+                    android:layout_marginStart="5dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

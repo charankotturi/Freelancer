@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/myapplication_bottomsheet_nav"
+    app:startDestination="@id/home_application">
+
+    <fragment
+        android:id="@+id/home_application"
+        android:name="com.example.minicompany.fragment.home_application_Fragment"
+        android:label="fragment_home_application"
+        tools:layout="@layout/fragment_home_application" >
+        <action
+            android:id="@+id/action_home_application_to_bottomSheet"
+            app:destination="@id/bottomSheet"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+    <dialog
+        android:id="@+id/bottomSheet"
+        android:name="com.example.minicompany.fragment.bottomSheetFragment"
+        android:label="fragment_bottom_sheet"
+        tools:layout="@layout/fragment_bottom_sheet" >
+        <action
+            android:id="@+id/action_bottomSheet_to_home_application"
+            app:destination="@id/home_application" />
+    </dialog>
+</navigation>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navMenuApplication"
+        android:title="My application"
+        android:icon="@drawable/ic_application"
+        />
+    <item
+        android:id="@+id/navMenuPreferences"
+        android:title="Preferences"
+        android:icon="@drawable/ic_preferences"
+
+        />
+
+    <item
+        android:id="@+id/navMenuChat"
+        android:title="My Chat"
+        android:icon="@drawable/ic_chat_menu"
+        />
+    <item
+        android:id="@+id/navMenuResume"
+        android:title="Resume"
+        android:icon="@drawable/ic_resume"
+        />
+    <item
+        android:id="@+id/navMenuContactUs"
+        android:title="Contact us"
+        android:icon="@drawable/ic_phone"
+        />
+
+    <item
+        android:id="@+id/navMenuComplaint"
+        android:title="Report a complaint"
+        android:icon="@drawable/ic_complaint"
+        />
+
+    <item
+        android:id="@+id/navMenuLogOut"
+        android:title="Logout!"
+        android:icon="@drawable/ic_log_out"
+        />
+
+</menu>

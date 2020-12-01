@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MiniCompany</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Edit_Text">
+        <u>Edit</u>
+    </string>
+
+    <string-array name="itemsmany">
+        <item>Android Native</item>
+        <item>Flutter</item>
+        <item>React Native</item>
+        <item>IOS Native</item>
+        <item>Web Development</item>
+        <item>Word Press</item>
+        <item>Content Writing</item>
+    </string-array>
+
+</resources>
